@@ -1,0 +1,5 @@
+Validation rule: Email_Valid_Address (Client__c)
+Error location: Email
+Error message: Please Enter Valid Email Address
+
+NOT(REGEX(Email__c, "^[a-zA-Z0-9._]+@[a-zA-Z0-9.]+\.[a-zA-Z]{2,}$"))

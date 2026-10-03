@@ -1,0 +1,13 @@
+Event Budget (Formula, Currency) on Event__c
+
+CASE(
+  TEXT(Event_Type__c),
+  "Wedding", 50000,
+  "Corporate", 30000,
+  "Birthday", 10000,
+  "Anniversary", 20000,
+  "Festival", 60000,
+  "Concert", 40000,
+  "Other", 15000,
+  0
+)
